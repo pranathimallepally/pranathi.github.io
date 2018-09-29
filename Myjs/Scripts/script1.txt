@@ -1,0 +1,10 @@
+var myimage=document.querySelector('img');
+myimage.onclick=function() {
+var mysrc=myimage.getAttribute('src');
+if(mysrc==='Images/image1.jpg'){
+myimage.setAttribute('src','Images/image2.jpg')
+}
+else{
+myimage.setAttribute('src','Images/image1.jpg')
+}
+}
